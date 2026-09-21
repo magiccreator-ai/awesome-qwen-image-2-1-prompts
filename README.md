@@ -5,7 +5,7 @@ A curated collection of reusable Qwen Image 2.1 prompts and workflows shared by 
 
 🟢 **Continuously updated**
 
-**English**
+**English** · [日本語](<README.ja.md>) · [한국어](<README.ko.md>)
 
 **[Browse the visual gallery](<https://magiccreator.ai/qwen-image-2-1-prompts>)** · [Try Qwen Image 2.1](<https://magiccreator.ai/model/qwen-image-2-1>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 

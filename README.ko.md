@@ -9,7 +9,7 @@
 
 **[비주얼 갤러리 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts>)** · [Qwen Image 2.1 사용해 보기](<https://magiccreator.ai/ko/model/qwen-image-2-1>) · [프롬프트 제안하기](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-현재 엄선한 **9개의 프롬프트**를 수록했습니다（출처 최종 확인일: **2026-09-21**）. 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
+현재 엄선한 **9개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-21**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
 
 ## 목차
 

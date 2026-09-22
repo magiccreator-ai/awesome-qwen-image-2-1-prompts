@@ -9,15 +9,15 @@
 
 **[ビジュアルギャラリーを見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts>)** · [Qwen Image 2.1を試す](<https://magiccreator.ai/ja/model/qwen-image-2-1>) · [プロンプトを推薦する](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-現在、厳選した**9件のプロンプト**を掲載（出典の最新確認日：**2026-09-21**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
+現在、厳選した**15件のプロンプト**を掲載（出典の最新確認日：**2026-09-22**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
 
 ## 目次
 
 - [透明素材](#transparent-assets) (1)
-- [複数参照画像](#multi-reference) (2)
-- [文字・レイアウト](#text-and-layout) (3)
-- [精密な編集](#precise-edits) (1)
-- [クリエイティブ生成](#creative-generation) (2)
+- [複数参照画像](#multi-reference) (3)
+- [文字・レイアウト](#text-and-layout) (5)
+- [精密な編集](#precise-edits) (2)
+- [クリエイティブ生成](#creative-generation) (4)
 - [プロンプトを推薦する](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -108,6 +108,32 @@ These three characters are sitting around a campfire in a forest
 
 [元の出典](<https://github.com/QwenLM/Qwen-Image-2.1#image-editing-multiple-reference-images>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#official-multi-character-campfire>)
 
+<a id="cooking-storyboard-grid"></a>
+
+### 1枚のキャラクター参照画像から料理絵コンテを作る
+
+[![キャラクター参照画像からQwen Image 2.1で生成したワイド画面の料理絵コンテグリッド](<https://pbs.twimg.com/media/HSypgDsawAAri0f.jpg>)](<https://x.com/eternityspring/status/2102241587724206543>)
+
+1枚のキャラクター画像を軸に、ムード、構図、控えめな演技を一貫させた家庭料理のワイド画面シークエンスを作ります。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**元の中国語プロンプト** · `zh`
+
+```text
+请创作一个 16:9 的 12 格动画剧本，内容是关于制作西红柿鸡蛋面的过程。在动画中，角色应该始终出现在画面中。使用简单的日本动画风格，营造出电影般的动画效果。整体氛围应显得温馨、低调且略带忧郁感，场景应模拟傍晚家庭厨房的灯光氛围，平凡的瞬间被描绘得美丽而富有层次感，角色的表情细腻而微妙，留白处理也很巧妙，画面构图偏中心偏下，同时有手部、眼睛等细节的特写镜头。避免过于夸张的动画表情或商业化的镜头。角色在制作西红柿鸡蛋面时，应该以温和的方式自言自语，肢体语言也应该是自然且适度的。
+```
+
+#### 応用方法
+
+料理を、明確な始まり・中盤・終わりを持つ短い行動に置き換えます。キャラクターを常に出す条件、照明の連続性、感情のトーン、指定したクローズアップは維持し、各動作が不明瞭になる場合はコマ数を減らしてください。
+
+**作者:** [烁皓](<https://x.com/eternityspring>)
+
+[Xの元投稿](<https://x.com/eternityspring/status/2102241587724206543>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#cooking-storyboard-grid>)
+
 <a id="text-and-layout"></a>
 
 ## 文字・レイアウト
@@ -190,6 +216,58 @@ A neon shop sign that reads "QWEN IMAGE 2.1", rainy night, reflections on wet pa
 
 [元の出典](<https://github.com/QwenLM/Qwen-Image-2.1#text-to-image>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#official-neon-shop-sign>)
 
+<a id="data-center-warning-sign"></a>
+
+### 実写シーンに3行の警告看板を描く
+
+[![生成された3行の文字が入った、風化した黄色いデータセンター警告看板](<https://pbs.twimg.com/media/HSxLvujbcAAJT_a.jpg>)](<https://x.com/cocktailpeanut/status/2102141370999976178>)
+
+各行の文言と位置を明示し、看板の周囲に平凡な工業設備、霧、説得力のある表面劣化を配置します。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+A photograph of a weathered yellow warning sign bolted to a chain-link fence surrounding an enormous data center. The sign contains only three lines of bold black text: "CAUTION" on the first line, "INTELLIGENCE" on the second line, and "INSIDE" on the third line. Behind the fence are endless industrial cooling units and server buildings disappearing into fog. Overcast morning, documentary photography, completely ordinary mundane environment, realistic weathering and scratches on the sign, no people, no other readable text.
+```
+
+#### 応用方法
+
+行数を明記し、各行を引用符で囲み、順番を指定します。余計なラベルが構図を損なう場合は、最後に「ほかに読める文字は入れない」と加えてください。
+
+**作者:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Xの元投稿](<https://x.com/cocktailpeanut/status/2102141370999976178>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#data-center-warning-sign>)
+
+<a id="void-sparkling-water-can"></a>
+
+### 4つの正確な文字ブロックを持つ高級缶をデザインする
+
+[![Qwen Image 2.1が生成した、正確なパッケージ文字入りのマットシルバーのVOID炭酸水缶](<https://pbs.twimg.com/media/HSxNUdPbIAA3sjb.jpg>)](<https://x.com/cocktailpeanut/status/2102141381036875871>)
+
+抑制されたパッケージ階層と、リアルなアルミ、結露、スタジオ反射を1枚の商品写真にまとめます。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+Studio product photograph of a fictional premium sparkling water can standing upright on a glossy black surface. The can is matte silver with minimal black typography. Large vertical text on the can reads "VOID". Beneath it, smaller text reads "SPARKLING WATER". Near the bottom it reads "ZERO EVERYTHING". A tiny line underneath reads "355 mL". Soft rectangular studio reflections wrap naturally around the aluminum. Black seamless background, extremely crisp commercial product photography, subtle condensation, realistic metallic material, no additional logos or text.
+```
+
+#### 応用方法
+
+引用符内の4つの文言を、ブランド、商品種別、訴求文、容量という階層を保って置き換えます。素材と反射を別々に記述し、リアルな商品写真の中でもパッケージを読みやすくしてください。
+
+**作者:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Xの元投稿](<https://x.com/cocktailpeanut/status/2102141381036875871>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#void-sparkling-water-can>)
+
 <a id="precise-edits"></a>
 
 ## 精密な編集
@@ -221,6 +299,32 @@ Using my uploaded photo, show me what I would have looked like around 1985. Pres
 **作者:** [Victor Motricala](<https://x.com/VictorMotricala>)
 
 [Xの元投稿](<https://x.com/VictorMotricala/status/2101682379542741045>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#1985-portrait-restyle>)
+
+<a id="generative-two-times-upscale"></a>
+
+### 短い指示だけで生成画像をアップスケールする
+
+[![1024ピクセルのQwen-Image 2.1出力と2倍の生成型アップスケールを比較する動画プレビュー](<https://pbs.twimg.com/amplify_video_thumb/2102230314579845120/img/FO3VKR6ynLjWkHSP.jpg>)](<https://x.com/realrebelai/status/2102230694827299060>)
+
+Qwen-Image 2.1自体を生成型アップスケーラーとして使い、1024ピクセルの出力を最小限の編集指示で大きな画像にします。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+Upscale the image
+```
+
+#### 応用方法
+
+まず同じ短い指示で、モデルがどれだけディテールを補うか確認します。忠実度が崩れる場合は、維持すべきディテール、色、構図を指定する保持条件を1つ追加してください。
+
+**作者:** [Rebel AI](<https://x.com/realrebelai>)
+
+[Xの元投稿](<https://x.com/realrebelai/status/2102230694827299060>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#generative-two-times-upscale>)
 
 <a id="creative-generation"></a>
 
@@ -279,6 +383,58 @@ Cinematic sci-fi concept art, realistic hard sci-fi, deep space survival, lonely
 **作者:** [团长 Tuan](<https://x.com/JiaMiXingTuan>)
 
 [Xの元投稿](<https://x.com/JiaMiXingTuan/status/2101706227139199441>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#hard-sci-fi-lithography-machine>)
+
+<a id="found-footage-convenience-store"></a>
+
+### 不気味なコンビニの監視映像フレームを演出する
+
+[![Qwen Image 2.1で生成した不気味なコンビニのファウンドフッテージ風シーン](<https://pbs.twimg.com/media/HSyb-htasAAyX-a.jpg>)](<https://x.com/cocktailpeanut/status/2102229884319973608>)
+
+平坦な蛍光灯、偶然のような構図、わずかに異常な人物を組み合わせ、平凡な深夜の店内を不穏に見せます。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+A grainy surveillance-like found-footage frame inside a nearly empty convenience store late at night. The fluorescent lighting is flat and ugly. Between the aisles, a person-shaped figure with an unnaturally featureless face is caught mid-turn looking toward the camera. Shelves of snacks and drinks make the scene feel totally ordinary, which makes the figure more disturbing. Slight distortion, low dynamic range, timestamp, accidental realism, not stylized.
+```
+
+#### 応用方法
+
+日常的な場所と不完全なカメラ表現は残し、顔のない人物を別の控えめな異変に置き換えます。不穏な要素より先に普通の背景ディテールを記述し、対比で怖さを作ってください。
+
+**作者:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Xの元投稿](<https://x.com/cocktailpeanut/status/2102229884319973608>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#found-footage-convenience-store>)
+
+<a id="flower-field-vintage-train"></a>
+
+### 巨大な花畑を走るヴィンテージ列車を描く
+
+[![巨大な白い花の中から現れ、煙の代わりに花びらを上げるヴィンテージ列車](<https://pbs.twimg.com/media/HSxu6yUa4AASLzM.jpg>)](<https://x.com/cocktailpeanut/status/2102177287139631560>)
+
+煙の代わりに花びらが機関車から空へ昇る、1つの視覚的置換を軸に夢のような場面を作ります。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+A surreal cinematic scene of a vintage train emerging silently from a dense field of giant white flowers at dusk. Instead of smoke, a stream of flower petals rises from the engine and dissolves into the sky. The windows glow warmly from within, but no passengers are visible. Beautiful color harmony, gentle fog, dreamlike, haunting, visually breathtaking.
+```
+
+#### 応用方法
+
+身近な被写体を1つ残し、本来起こる物理現象を意外な素材に置き換えます。時間帯、室内の光の手がかり、控えめな空気感を加えてシュールな発想をまとめてください。
+
+**作者:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Xの元投稿](<https://x.com/cocktailpeanut/status/2102177287139631560>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#flower-field-vintage-train>)
 
 <a id="suggest-a-prompt"></a>
 

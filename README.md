@@ -9,15 +9,15 @@ A curated collection of reusable Qwen Image 2.1 prompts and workflows shared by 
 
 **[Browse the visual gallery](<https://magiccreator.ai/qwen-image-2-1-prompts>)** · [Try Qwen Image 2.1](<https://magiccreator.ai/model/qwen-image-2-1>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **9 curated prompts**, with sources reviewed through **2026-09-21**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **15 curated prompts**, with sources reviewed through **2026-09-22**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
 - [Transparent assets](#transparent-assets) (1)
-- [Multi-reference composition](#multi-reference) (2)
-- [Text and layout](#text-and-layout) (3)
-- [Precise edits](#precise-edits) (1)
-- [Creative generation](#creative-generation) (2)
+- [Multi-reference composition](#multi-reference) (3)
+- [Text and layout](#text-and-layout) (5)
+- [Precise edits](#precise-edits) (2)
+- [Creative generation](#creative-generation) (4)
 - [Suggest a prompt](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -108,6 +108,32 @@ Keep the subject count aligned with the uploaded references, then state one shar
 
 [Original source](<https://github.com/QwenLM/Qwen-Image-2.1#image-editing-multiple-reference-images>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#official-multi-character-campfire>)
 
+<a id="cooking-storyboard-grid"></a>
+
+### Turn One Character Reference Into a Cooking Storyboard
+
+[![Widescreen cooking storyboard grid generated with Qwen Image 2.1 from a character reference](<https://pbs.twimg.com/media/HSypgDsawAAri0f.jpg>)](<https://x.com/eternityspring/status/2102241587724206543>)
+
+Use a single character image to anchor a widescreen sequence of domestic cooking beats with consistent mood, framing and understated performance.
+
+**Model:** Qwen-Image 2.1 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original Chinese prompt** · `zh`
+
+```text
+请创作一个 16:9 的 12 格动画剧本，内容是关于制作西红柿鸡蛋面的过程。在动画中，角色应该始终出现在画面中。使用简单的日本动画风格，营造出电影般的动画效果。整体氛围应显得温馨、低调且略带忧郁感，场景应模拟傍晚家庭厨房的灯光氛围，平凡的瞬间被描绘得美丽而富有层次感，角色的表情细腻而微妙，留白处理也很巧妙，画面构图偏中心偏下，同时有手部、眼睛等细节的特写镜头。避免过于夸张的动画表情或商业化的镜头。角色在制作西红柿鸡蛋面时，应该以温和的方式自言自语，肢体语言也应该是自然且适度的。
+```
+
+#### How to adapt it
+
+Replace the recipe with a short action that has a clear beginning, middle and end. Keep the character-presence rule, lighting continuity, emotional tone and requested close-ups; reduce the panel count if individual actions become unclear.
+
+**Shared by:** [烁皓](<https://x.com/eternityspring>)
+
+[Original post on X](<https://x.com/eternityspring/status/2102241587724206543>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#cooking-storyboard-grid>)
+
 <a id="text-and-layout"></a>
 
 ## Text and layout
@@ -190,6 +216,58 @@ Keep required display text inside quotation marks, then add the sign material, s
 
 [Original source](<https://github.com/QwenLM/Qwen-Image-2.1#text-to-image>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#official-neon-shop-sign>)
 
+<a id="data-center-warning-sign"></a>
+
+### Render a Three-Line Warning Sign in a Real Scene
+
+[![Weathered yellow data-center warning sign with three lines of generated text](<https://pbs.twimg.com/media/HSxLvujbcAAJT_a.jpg>)](<https://x.com/cocktailpeanut/status/2102141370999976178>)
+
+Give each line of copy an explicit position while surrounding the sign with mundane industrial detail, fog and believable surface wear.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+A photograph of a weathered yellow warning sign bolted to a chain-link fence surrounding an enormous data center. The sign contains only three lines of bold black text: "CAUTION" on the first line, "INTELLIGENCE" on the second line, and "INSIDE" on the third line. Behind the fence are endless industrial cooling units and server buildings disappearing into fog. Overcast morning, documentary photography, completely ordinary mundane environment, realistic weathering and scratches on the sign, no people, no other readable text.
+```
+
+#### How to adapt it
+
+State the exact number of lines, quote every line, and name its order. Finish with 'no other readable text' when stray labels would weaken the composition.
+
+**Shared by:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Original post on X](<https://x.com/cocktailpeanut/status/2102141370999976178>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#data-center-warning-sign>)
+
+<a id="void-sparkling-water-can"></a>
+
+### Design a Premium Can With Four Exact Text Blocks
+
+[![Matte silver VOID sparkling-water can with exact packaging text generated by Qwen Image 2.1](<https://pbs.twimg.com/media/HSxNUdPbIAA3sjb.jpg>)](<https://x.com/cocktailpeanut/status/2102141381036875871>)
+
+Combine a restrained packaging hierarchy with realistic aluminum, condensation and studio reflections in one commercial product shot.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+Studio product photograph of a fictional premium sparkling water can standing upright on a glossy black surface. The can is matte silver with minimal black typography. Large vertical text on the can reads "VOID". Beneath it, smaller text reads "SPARKLING WATER". Near the bottom it reads "ZERO EVERYTHING". A tiny line underneath reads "355 mL". Soft rectangular studio reflections wrap naturally around the aluminum. Black seamless background, extremely crisp commercial product photography, subtle condensation, realistic metallic material, no additional logos or text.
+```
+
+#### How to adapt it
+
+Replace the four quoted strings while preserving their hierarchy: brand, product type, claim and size. Describe material and reflections separately so the packaging stays legible inside a realistic product photograph.
+
+**Shared by:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Original post on X](<https://x.com/cocktailpeanut/status/2102141381036875871>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#void-sparkling-water-can>)
+
 <a id="precise-edits"></a>
 
 ## Precise edits
@@ -221,6 +299,32 @@ Swap the decade and its visual markers, but keep identity protection in the firs
 **Shared by:** [Victor Motricala](<https://x.com/VictorMotricala>)
 
 [Original post on X](<https://x.com/VictorMotricala/status/2101682379542741045>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#1985-portrait-restyle>)
+
+<a id="generative-two-times-upscale"></a>
+
+### Upscale a Generated Image With One Short Instruction
+
+[![Video preview comparing a 1024-pixel Qwen-Image 2.1 output with its two-times generative upscale](<https://pbs.twimg.com/amplify_video_thumb/2102230314579845120/img/FO3VKR6ynLjWkHSP.jpg>)](<https://x.com/realrebelai/status/2102230694827299060>)
+
+Use Qwen-Image 2.1 as its own generative upscaler, turning a 1024-pixel result into a larger image with a deliberately minimal edit prompt.
+
+**Model:** Qwen-Image 2.1 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+Upscale the image
+```
+
+#### How to adapt it
+
+Start with the exact short instruction to learn how much detail the model invents. If fidelity drifts, add one preservation clause naming the details, colors and composition that must stay unchanged.
+
+**Shared by:** [Rebel AI](<https://x.com/realrebelai>)
+
+[Original post on X](<https://x.com/realrebelai/status/2102230694827299060>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#generative-two-times-upscale>)
 
 <a id="creative-generation"></a>
 
@@ -279,6 +383,58 @@ Keep the first half as the art direction and replace the final equipment list wi
 **Shared by:** [团长 Tuan](<https://x.com/JiaMiXingTuan>)
 
 [Original post on X](<https://x.com/JiaMiXingTuan/status/2101706227139199441>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#hard-sci-fi-lithography-machine>)
+
+<a id="found-footage-convenience-store"></a>
+
+### Stage an Uncanny Convenience-Store Surveillance Frame
+
+[![Uncanny convenience-store found-footage scene generated with Qwen Image 2.1](<https://pbs.twimg.com/media/HSyb-htasAAyX-a.jpg>)](<https://x.com/cocktailpeanut/status/2102229884319973608>)
+
+Make an ordinary late-night shop feel disturbing by combining flat fluorescent light, accidental framing and one subtly impossible figure.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+A grainy surveillance-like found-footage frame inside a nearly empty convenience store late at night. The fluorescent lighting is flat and ugly. Between the aisles, a person-shaped figure with an unnaturally featureless face is caught mid-turn looking toward the camera. Shelves of snacks and drinks make the scene feel totally ordinary, which makes the figure more disturbing. Slight distortion, low dynamic range, timestamp, accidental realism, not stylized.
+```
+
+#### How to adapt it
+
+Keep the mundane location and imperfect camera language, then replace the featureless figure with one restrained anomaly. Describe ordinary background details before the unsettling element so the contrast carries the scene.
+
+**Shared by:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Original post on X](<https://x.com/cocktailpeanut/status/2102229884319973608>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#found-footage-convenience-store>)
+
+<a id="flower-field-vintage-train"></a>
+
+### Send a Vintage Train Through a Field of Giant Flowers
+
+[![Vintage train emerging from giant white flowers with petals replacing its smoke](<https://pbs.twimg.com/media/HSxu6yUa4AASLzM.jpg>)](<https://x.com/cocktailpeanut/status/2102177287139631560>)
+
+Build a dreamlike scene around one visual substitution: flower petals rise from the engine where smoke would normally appear.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+A surreal cinematic scene of a vintage train emerging silently from a dense field of giant white flowers at dusk. Instead of smoke, a stream of flower petals rises from the engine and dissolves into the sky. The windows glow warmly from within, but no passengers are visible. Beautiful color harmony, gentle fog, dreamlike, haunting, visually breathtaking.
+```
+
+#### How to adapt it
+
+Keep one familiar subject and replace one expected physical effect with an unexpected material. Add time of day, one interior light cue and a restrained atmosphere to unify the surreal idea.
+
+**Shared by:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Original post on X](<https://x.com/cocktailpeanut/status/2102177287139631560>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#flower-field-vintage-train>)
 
 <a id="suggest-a-prompt"></a>
 

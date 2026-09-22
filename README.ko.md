@@ -9,15 +9,15 @@
 
 **[비주얼 갤러리 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts>)** · [Qwen Image 2.1 사용해 보기](<https://magiccreator.ai/ko/model/qwen-image-2-1>) · [프롬프트 제안하기](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-현재 엄선한 **9개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-21**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
+현재 엄선한 **15개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-22**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
 
 ## 목차
 
 - [투명 에셋](#transparent-assets) (1)
-- [다중 참조 구성](#multi-reference) (2)
-- [텍스트와 레이아웃](#text-and-layout) (3)
-- [정밀 편집](#precise-edits) (1)
-- [창의적 생성](#creative-generation) (2)
+- [다중 참조 구성](#multi-reference) (3)
+- [텍스트와 레이아웃](#text-and-layout) (5)
+- [정밀 편집](#precise-edits) (2)
+- [창의적 생성](#creative-generation) (4)
 - [프롬프트 제안하기](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -108,6 +108,32 @@ These three characters are sitting around a campfire in a forest
 
 [원본 출처](<https://github.com/QwenLM/Qwen-Image-2.1#image-editing-multiple-reference-images>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#official-multi-character-campfire>)
 
+<a id="cooking-storyboard-grid"></a>
+
+### 캐릭터 참조 한 장으로 요리 스토리보드 만들기
+
+[![캐릭터 참조 이미지로 Qwen Image 2.1에서 생성한 와이드스크린 요리 스토리보드 그리드](<https://pbs.twimg.com/media/HSypgDsawAAri0f.jpg>)](<https://x.com/eternityspring/status/2102241587724206543>)
+
+캐릭터 이미지 한 장을 기준으로 분위기, 구도, 절제된 연기가 일관된 가정식 요리 와이드스크린 시퀀스를 만듭니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 편집 · **입력:** 1개 이미지
+
+#### 프롬프트
+
+**원본 중국어 프롬프트** · `zh`
+
+```text
+请创作一个 16:9 的 12 格动画剧本，内容是关于制作西红柿鸡蛋面的过程。在动画中，角色应该始终出现在画面中。使用简单的日本动画风格，营造出电影般的动画效果。整体氛围应显得温馨、低调且略带忧郁感，场景应模拟傍晚家庭厨房的灯光氛围，平凡的瞬间被描绘得美丽而富有层次感，角色的表情细腻而微妙，留白处理也很巧妙，画面构图偏中心偏下，同时有手部、眼睛等细节的特写镜头。避免过于夸张的动画表情或商业化的镜头。角色在制作西红柿鸡蛋面时，应该以温和的方式自言自语，肢体语言也应该是自然且适度的。
+```
+
+#### 응용 방법
+
+요리를 시작, 중간, 끝이 분명한 짧은 행동으로 바꾸세요. 캐릭터가 계속 등장한다는 규칙, 조명 연속성, 감정 분위기, 요청한 클로즈업은 유지하고 개별 행동이 불분명해지면 패널 수를 줄이세요.
+
+**공유자:** [烁皓](<https://x.com/eternityspring>)
+
+[X 원본 게시물](<https://x.com/eternityspring/status/2102241587724206543>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#cooking-storyboard-grid>)
+
 <a id="text-and-layout"></a>
 
 ## 텍스트와 레이아웃
@@ -190,6 +216,58 @@ A neon shop sign that reads "QWEN IMAGE 2.1", rainy night, reflections on wet pa
 
 [원본 출처](<https://github.com/QwenLM/Qwen-Image-2.1#text-to-image>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#official-neon-shop-sign>)
 
+<a id="data-center-warning-sign"></a>
+
+### 실제 장면에 세 줄짜리 경고 표지판 렌더링하기
+
+[![생성된 세 줄의 텍스트가 있는 낡은 노란색 데이터 센터 경고 표지판](<https://pbs.twimg.com/media/HSxLvujbcAAJT_a.jpg>)](<https://x.com/cocktailpeanut/status/2102141370999976178>)
+
+각 문구의 위치를 명확히 지정하면서 평범한 산업 설비, 안개, 사실적인 표면 마모로 표지판 주변을 구성합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+A photograph of a weathered yellow warning sign bolted to a chain-link fence surrounding an enormous data center. The sign contains only three lines of bold black text: "CAUTION" on the first line, "INTELLIGENCE" on the second line, and "INSIDE" on the third line. Behind the fence are endless industrial cooling units and server buildings disappearing into fog. Overcast morning, documentary photography, completely ordinary mundane environment, realistic weathering and scratches on the sign, no people, no other readable text.
+```
+
+#### 응용 방법
+
+정확한 줄 수를 밝히고 각 줄을 따옴표로 묶은 뒤 순서를 지정하세요. 불필요한 라벨이 구도를 해칠 때는 마지막에 '그 밖의 읽을 수 있는 텍스트 없음'을 추가하세요.
+
+**공유자:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[X 원본 게시물](<https://x.com/cocktailpeanut/status/2102141370999976178>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#data-center-warning-sign>)
+
+<a id="void-sparkling-water-can"></a>
+
+### 정확한 텍스트 블록 네 개가 있는 프리미엄 캔 디자인하기
+
+[![Qwen Image 2.1이 정확한 패키지 문구와 함께 생성한 무광 은색 VOID 탄산수 캔](<https://pbs.twimg.com/media/HSxNUdPbIAA3sjb.jpg>)](<https://x.com/cocktailpeanut/status/2102141381036875871>)
+
+절제된 패키지 정보 위계와 사실적인 알루미늄, 물방울, 스튜디오 반사를 한 장의 상업용 제품 사진에 결합합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+Studio product photograph of a fictional premium sparkling water can standing upright on a glossy black surface. The can is matte silver with minimal black typography. Large vertical text on the can reads "VOID". Beneath it, smaller text reads "SPARKLING WATER". Near the bottom it reads "ZERO EVERYTHING". A tiny line underneath reads "355 mL". Soft rectangular studio reflections wrap naturally around the aluminum. Black seamless background, extremely crisp commercial product photography, subtle condensation, realistic metallic material, no additional logos or text.
+```
+
+#### 응용 방법
+
+따옴표 안의 네 문구를 브랜드, 제품 종류, 문구, 용량의 위계를 유지하며 바꾸세요. 재질과 반사를 따로 설명해 사실적인 제품 사진 안에서도 패키지 문구가 잘 읽히게 하세요.
+
+**공유자:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[X 원본 게시물](<https://x.com/cocktailpeanut/status/2102141381036875871>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#void-sparkling-water-can>)
+
 <a id="precise-edits"></a>
 
 ## 정밀 편집
@@ -221,6 +299,32 @@ Using my uploaded photo, show me what I would have looked like around 1985. Pres
 **공유자:** [Victor Motricala](<https://x.com/VictorMotricala>)
 
 [X 원본 게시물](<https://x.com/VictorMotricala/status/2101682379542741045>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#1985-portrait-restyle>)
+
+<a id="generative-two-times-upscale"></a>
+
+### 짧은 지시 한 줄로 생성 이미지를 업스케일하기
+
+[![1024픽셀 Qwen-Image 2.1 결과와 2배 생성형 업스케일을 비교하는 동영상 미리보기](<https://pbs.twimg.com/amplify_video_thumb/2102230314579845120/img/FO3VKR6ynLjWkHSP.jpg>)](<https://x.com/realrebelai/status/2102230694827299060>)
+
+Qwen-Image 2.1을 자체 생성형 업스케일러로 사용해 1024픽셀 결과를 의도적으로 짧은 편집 프롬프트만으로 더 큰 이미지로 만듭니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 편집 · **입력:** 1개 이미지
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+Upscale the image
+```
+
+#### 응용 방법
+
+먼저 똑같은 짧은 지시로 모델이 디테일을 얼마나 새로 만드는지 확인하세요. 원본 충실도가 떨어지면 반드시 유지할 디테일, 색상, 구도를 명시한 보존 조건을 하나 추가하세요.
+
+**공유자:** [Rebel AI](<https://x.com/realrebelai>)
+
+[X 원본 게시물](<https://x.com/realrebelai/status/2102230694827299060>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#generative-two-times-upscale>)
 
 <a id="creative-generation"></a>
 
@@ -279,6 +383,58 @@ Cinematic sci-fi concept art, realistic hard sci-fi, deep space survival, lonely
 **공유자:** [团长 Tuan](<https://x.com/JiaMiXingTuan>)
 
 [X 원본 게시물](<https://x.com/JiaMiXingTuan/status/2101706227139199441>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#hard-sci-fi-lithography-machine>)
+
+<a id="found-footage-convenience-store"></a>
+
+### 불길한 편의점 감시 영상 프레임 연출하기
+
+[![Qwen Image 2.1로 생성한 불길한 편의점 파운드 푸티지 장면](<https://pbs.twimg.com/media/HSyb-htasAAyX-a.jpg>)](<https://x.com/cocktailpeanut/status/2102229884319973608>)
+
+평평한 형광등 조명, 우연히 찍힌 듯한 구도, 미묘하게 비현실적인 인물을 결합해 평범한 심야 매장을 불안하게 만듭니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+A grainy surveillance-like found-footage frame inside a nearly empty convenience store late at night. The fluorescent lighting is flat and ugly. Between the aisles, a person-shaped figure with an unnaturally featureless face is caught mid-turn looking toward the camera. Shelves of snacks and drinks make the scene feel totally ordinary, which makes the figure more disturbing. Slight distortion, low dynamic range, timestamp, accidental realism, not stylized.
+```
+
+#### 응용 방법
+
+평범한 장소와 불완전한 카메라 표현은 유지하고 얼굴 없는 인물을 다른 절제된 이상 현상으로 바꾸세요. 불길한 요소보다 일상적인 배경 디테일을 먼저 설명해 대비가 장면을 이끌게 하세요.
+
+**공유자:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[X 원본 게시물](<https://x.com/cocktailpeanut/status/2102229884319973608>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#found-footage-convenience-store>)
+
+<a id="flower-field-vintage-train"></a>
+
+### 거대한 꽃밭을 지나는 빈티지 열차 만들기
+
+[![거대한 흰 꽃 사이에서 나타나며 연기 대신 꽃잎을 내뿜는 빈티지 열차](<https://pbs.twimg.com/media/HSxu6yUa4AASLzM.jpg>)](<https://x.com/cocktailpeanut/status/2102177287139631560>)
+
+기관차의 연기 대신 꽃잎이 하늘로 올라가는 하나의 시각적 치환을 중심으로 몽환적인 장면을 만듭니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+A surreal cinematic scene of a vintage train emerging silently from a dense field of giant white flowers at dusk. Instead of smoke, a stream of flower petals rises from the engine and dissolves into the sky. The windows glow warmly from within, but no passengers are visible. Beautiful color harmony, gentle fog, dreamlike, haunting, visually breathtaking.
+```
+
+#### 응용 방법
+
+익숙한 주체 하나는 유지하고 예상되는 물리 효과 하나를 뜻밖의 재료로 바꾸세요. 시간대, 내부 조명 단서 하나, 절제된 분위기를 더해 초현실적인 아이디어를 통일하세요.
+
+**공유자:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[X 원본 게시물](<https://x.com/cocktailpeanut/status/2102177287139631560>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#flower-field-vintage-train>)
 
 <a id="suggest-a-prompt"></a>
 

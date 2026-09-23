@@ -9,15 +9,15 @@
 
 **[비주얼 갤러리 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts>)** · [Qwen Image 2.1 사용해 보기](<https://magiccreator.ai/ko/model/qwen-image-2-1>) · [프롬프트 제안하기](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-현재 엄선한 **15개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-22**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
+현재 엄선한 **18개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-23**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
 
 ## 목차
 
 - [투명 에셋](#transparent-assets) (1)
 - [다중 참조 구성](#multi-reference) (3)
-- [텍스트와 레이아웃](#text-and-layout) (5)
+- [텍스트와 레이아웃](#text-and-layout) (7)
 - [정밀 편집](#precise-edits) (2)
-- [창의적 생성](#creative-generation) (4)
+- [창의적 생성](#creative-generation) (5)
 - [프롬프트 제안하기](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -268,6 +268,62 @@ Studio product photograph of a fictional premium sparkling water can standing up
 
 [X 원본 게시물](<https://x.com/cocktailpeanut/status/2102141381036875871>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#void-sparkling-water-can>)
 
+<a id="ba-console-app-icon"></a>
+
+### BA 모노그램으로 기하학적 앱 아이콘 디자인하기
+
+[![원본 비교 이미지의 왼쪽에 표시된 Qwen Image 2.1 생성 BA Console 모노그램 앱 아이콘](<https://pbs.twimg.com/media/HS2hqv3XgAAYKqC.png>)](<https://x.com/albertgao/status/2102514884659347727>)
+
+두 글자 마크와 절제된 색상, 제외 조건을 지정해 작은 크기에서도 선명한 앱 아이콘을 만듭니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+Design a polished app icon for BA Console, a mobile command center for launching and managing AI agents. Create a bold, geometric “BA” monogram that subtly suggests a terminal prompt and a lightning bolt, conveying control, speed, and intelligence.
+
+Use a near-black background with an electric orange accent, strong contrast, clean edges, and generous negative space. The icon should feel precise and distinctive, with a silhouette that remains recognizable at small sizes.
+
+Produce a 1024 × 1024 square, with the artwork centered and no baked-in rounded corners. No words beyond the monogram, no robots, no brains, no decorative circuitry, no device mockup, and no watermark.
+```
+
+#### 응용 방법
+
+제품명과 두 글자 모노그램을 바꾸고 색상, 작은 크기에서의 윤곽, 제외 조건을 브랜드에 맞추세요. 실제 아이콘 크기에서 글자를 확인하세요.
+
+**공유자:** [Albert Gao](<https://x.com/albertgao>)
+
+[X 원본 게시물](<https://x.com/albertgao/status/2102514884659347727>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#ba-console-app-icon>)
+
+<a id="cinematic-character-turnaround"></a>
+
+### 영화 같은 캐릭터 정면·측면·후면 설정화 만들기
+
+[![영화 같은 인물 초상과 정면·측면·후면 삼면도를 보여 주는 첫 번째 Qwen Image 2.1 결과](<https://pbs.twimg.com/media/HSuFHpLawAEV_-p.jpg>)](<https://x.com/junwatu/status/2102006930642468942>)
+
+왼쪽에 큰 인물 클로즈업, 오른쪽에 정면·측면·후면 전신을 배치하고 얼굴과 의상의 일관성을 지정합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 중국어 프롬프트** · `zh`
+
+```text
+真人电影质感的单角色三视图设定参考图。干净灰色背景，左侧为一张较大的完整头肩半身细节图，必须是同一角色从头部到肩部胸口的连续完整特写，清楚展示面部、发型、上身服装、配饰和材质细节；左侧不要拆成多个局部小图、不要拼贴多个细节框、不要只给眼睛衣料配饰等碎片特写。右侧展示同一角色正面、侧面、背面全身三视图，全身可见。角色：丹尼尔·斯通，单人全身立绘，正对镜头站立，表情自然；30岁青年男性，2020年代现代美国，欧洲裔白人外貌，浅肤色，身高约185cm，9头身，魁梧健壮体型，肌肉发达，棕色短寸头，发质粗硬，眼窝深陷，灰蓝色瞳孔，鼻梁高挺且鼻头宽大，唇形厚实且唇色苍白，方下颌轮廓分明，面部皮肤粗糙并带有污垢痕迹，穿着脏污灰色连帽卫衣配同色系工装裤，脚穿黑色防滑工装靴，双手佩戴破旧皮革手套，双手自然下垂；光照均匀，高画质，手部完美，无文字水印。三视图中面部特征、身形比例、发型、服装、配饰、鞋履、姿态和关键视觉元素保持一致；表情自然中性，站姿稳定，比例统一，皮肤和布料金属等材质细节清楚，电影级写实光照，高画质，无文字、无logo、无水印。
+```
+
+#### 응용 방법
+
+캐릭터 배경과 의상을 바꾸되 왼쪽 초상과 오른쪽 삼면도 구성을 유지하세요. 모든 시점에서 같아야 할 특징을 반복해 명시하세요.
+
+**공유자:** [DΞV](<https://x.com/junwatu>)
+
+[X 원본 게시물](<https://x.com/junwatu/status/2102006930642468942>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#cinematic-character-turnaround>)
+
 <a id="precise-edits"></a>
 
 ## 정밀 편집
@@ -435,6 +491,32 @@ A surreal cinematic scene of a vintage train emerging silently from a dense fiel
 **공유자:** [cocktail peanut](<https://x.com/cocktailpeanut>)
 
 [X 원본 게시물](<https://x.com/cocktailpeanut/status/2102177287139631560>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#flower-field-vintage-train>)
+
+<a id="haunted-victorian-house-portrait"></a>
+
+### 숨은 위협이 있는 유령 저택 인물 사진 연출하기
+
+[![Qwen Image 2.1 결과로 공유된 빅토리아 시대 유령 저택의 영화 같은 인물 사진](<https://pbs.twimg.com/media/HStoJKLaYAAodo3.jpg>)](<https://x.com/Amrak101/status/2101888742256718017>)
+
+겁먹은 인물, 꺼져 가는 손전등, 배경의 희미한 형체로 사실적인 공포 장면을 구성합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**작성자 답글의 원본 프롬프트** · `en`
+
+```text
+A photorealistic cinematic portrait of an attractive woman in her mid-20s standing in a decaying Victorian haunted house, looking terrified. She has long dark wavy hair falling over one shoulder, pale skin, wide frightened brown eyes, parted lips, and a slight sheen of sweat on her face. She wears a thin white slip dress that clings slightly from damp air, one strap slipping off her shoulder. Her body is turned as if she just froze mid-step; one hand is raised near her mouth, the other holds a dying flashlight whose weak beam cuts across peeling floral wallpaper, cobwebs, and a dusty wooden floor.Behind her, a grand but ruined hallway: cracked plaster, a leaning portrait with its face scratched out, a staircase disappearing upward into blackness, and an open doorway to the left that is almost completely swallowed by shadow. In that dark recess, a vague human-shaped silhouette or the faint suggestion of eyes catches just enough light to imply something is watching her. Moonlight slants through a broken stained-glass window, catching floating dust. High contrast, moody horror lighting, shallow depth of field, 35mm film look, ultra-detailed, eerie atmosphere, no text.
+```
+
+#### 응용 방법
+
+인물, 광원, 숨은 위협을 화면의 서로 다른 영역에 두세요. 다시 보게 만드는 작은 단서는 유지하면서 장소와 위협을 바꾸세요.
+
+**공유자:** [isaac ✌️](<https://x.com/Amrak101>)
+
+[X 원본 게시물](<https://x.com/Amrak101/status/2101888742256718017>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#haunted-victorian-house-portrait>)
 
 <a id="suggest-a-prompt"></a>
 

@@ -9,15 +9,15 @@
 
 **[ビジュアルギャラリーを見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts>)** · [Qwen Image 2.1を試す](<https://magiccreator.ai/ja/model/qwen-image-2-1>) · [プロンプトを推薦する](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-現在、厳選した**15件のプロンプト**を掲載（出典の最新確認日：**2026-09-22**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
+現在、厳選した**18件のプロンプト**を掲載（出典の最新確認日：**2026-09-23**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
 
 ## 目次
 
 - [透明素材](#transparent-assets) (1)
 - [複数参照画像](#multi-reference) (3)
-- [文字・レイアウト](#text-and-layout) (5)
+- [文字・レイアウト](#text-and-layout) (7)
 - [精密な編集](#precise-edits) (2)
-- [クリエイティブ生成](#creative-generation) (4)
+- [クリエイティブ生成](#creative-generation) (5)
 - [プロンプトを推薦する](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -268,6 +268,62 @@ Studio product photograph of a fictional premium sparkling water can standing up
 
 [Xの元投稿](<https://x.com/cocktailpeanut/status/2102141381036875871>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#void-sparkling-water-can>)
 
+<a id="ba-console-app-icon"></a>
+
+### BAモノグラムの幾何学的なアプリアイコンをデザインする
+
+[![元投稿の比較画像の左側に示された、Qwen Image 2.1生成のBA Consoleモノグラムアイコン](<https://pbs.twimg.com/media/HS2hqv3XgAAYKqC.png>)](<https://x.com/albertgao/status/2102514884659347727>)
+
+2文字のマーク、絞った配色、除外条件を指定し、小さいサイズでも読みやすいアイコンを作ります。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+Design a polished app icon for BA Console, a mobile command center for launching and managing AI agents. Create a bold, geometric “BA” monogram that subtly suggests a terminal prompt and a lightning bolt, conveying control, speed, and intelligence.
+
+Use a near-black background with an electric orange accent, strong contrast, clean edges, and generous negative space. The icon should feel precise and distinctive, with a silhouette that remains recognizable at small sizes.
+
+Produce a 1024 × 1024 square, with the artwork centered and no baked-in rounded corners. No words beyond the monogram, no robots, no brains, no decorative circuitry, no device mockup, and no watermark.
+```
+
+#### 応用方法
+
+製品名と2文字のモノグラムを置き換え、配色、小さいサイズでのシルエット、除外条件をブランドに合わせます。実際のアイコンサイズで文字を確認してください。
+
+**作者:** [Albert Gao](<https://x.com/albertgao>)
+
+[Xの元投稿](<https://x.com/albertgao/status/2102514884659347727>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#ba-console-app-icon>)
+
+<a id="cinematic-character-turnaround"></a>
+
+### 映画風のキャラクター三面図を作る
+
+[![映画風の人物肖像と正面・側面・背面の三面図を示す、Qwen Image 2.1の最初の生成結果](<https://pbs.twimg.com/media/HSuFHpLawAEV_-p.jpg>)](<https://x.com/junwatu/status/2102006930642468942>)
+
+左に大きな肖像のディテール、右に正面・側面・背面の全身像を置き、人物と衣装の一貫性を指定します。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元の中国語プロンプト** · `zh`
+
+```text
+真人电影质感的单角色三视图设定参考图。干净灰色背景，左侧为一张较大的完整头肩半身细节图，必须是同一角色从头部到肩部胸口的连续完整特写，清楚展示面部、发型、上身服装、配饰和材质细节；左侧不要拆成多个局部小图、不要拼贴多个细节框、不要只给眼睛衣料配饰等碎片特写。右侧展示同一角色正面、侧面、背面全身三视图，全身可见。角色：丹尼尔·斯通，单人全身立绘，正对镜头站立，表情自然；30岁青年男性，2020年代现代美国，欧洲裔白人外貌，浅肤色，身高约185cm，9头身，魁梧健壮体型，肌肉发达，棕色短寸头，发质粗硬，眼窝深陷，灰蓝色瞳孔，鼻梁高挺且鼻头宽大，唇形厚实且唇色苍白，方下颌轮廓分明，面部皮肤粗糙并带有污垢痕迹，穿着脏污灰色连帽卫衣配同色系工装裤，脚穿黑色防滑工装靴，双手佩戴破旧皮革手套，双手自然下垂；光照均匀，高画质，手部完美，无文字水印。三视图中面部特征、身形比例、发型、服装、配饰、鞋履、姿态和关键视觉元素保持一致；表情自然中性，站姿稳定，比例统一，皮肤和布料金属等材质细节清楚，电影级写实光照，高画质，无文字、无logo、无水印。
+```
+
+#### 応用方法
+
+人物設定と衣装を置き換え、左の肖像と右の三面図という配置を維持します。全視点で一致させる特徴を繰り返し指定してください。
+
+**作者:** [DΞV](<https://x.com/junwatu>)
+
+[Xの元投稿](<https://x.com/junwatu/status/2102006930642468942>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#cinematic-character-turnaround>)
+
 <a id="precise-edits"></a>
 
 ## 精密な編集
@@ -435,6 +491,32 @@ A surreal cinematic scene of a vintage train emerging silently from a dense fiel
 **作者:** [cocktail peanut](<https://x.com/cocktailpeanut>)
 
 [Xの元投稿](<https://x.com/cocktailpeanut/status/2102177287139631560>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#flower-field-vintage-train>)
+
+<a id="haunted-victorian-house-portrait"></a>
+
+### 背景に脅威を隠した幽霊屋敷の肖像を演出する
+
+[![Qwen Image 2.1の結果として共有された、ビクトリア朝の幽霊屋敷を舞台にした映画風の肖像](<https://pbs.twimg.com/media/HStoJKLaYAAodo3.jpg>)](<https://x.com/Amrak101/status/2101888742256718017>)
+
+怯えた人物、消えかけの懐中電灯、背景のかすかな人影で写実的なホラー場面を構成します。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**作者の返信にある元のプロンプト** · `en`
+
+```text
+A photorealistic cinematic portrait of an attractive woman in her mid-20s standing in a decaying Victorian haunted house, looking terrified. She has long dark wavy hair falling over one shoulder, pale skin, wide frightened brown eyes, parted lips, and a slight sheen of sweat on her face. She wears a thin white slip dress that clings slightly from damp air, one strap slipping off her shoulder. Her body is turned as if she just froze mid-step; one hand is raised near her mouth, the other holds a dying flashlight whose weak beam cuts across peeling floral wallpaper, cobwebs, and a dusty wooden floor.Behind her, a grand but ruined hallway: cracked plaster, a leaning portrait with its face scratched out, a staircase disappearing upward into blackness, and an open doorway to the left that is almost completely swallowed by shadow. In that dark recess, a vague human-shaped silhouette or the faint suggestion of eyes catches just enough light to imply something is watching her. Moonlight slants through a broken stained-glass window, catching floating dust. High contrast, moody horror lighting, shallow depth of field, 35mm film look, ultra-detailed, eerie atmosphere, no text.
+```
+
+#### 応用方法
+
+人物、光源、隠れた脅威を画面の異なる場所に配置します。背景の手掛かりを控えめに残しながら、舞台と脅威を置き換えてください。
+
+**作者:** [isaac ✌️](<https://x.com/Amrak101>)
+
+[Xの元投稿](<https://x.com/Amrak101/status/2101888742256718017>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#haunted-victorian-house-portrait>)
 
 <a id="suggest-a-prompt"></a>
 

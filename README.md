@@ -9,15 +9,15 @@ A curated collection of reusable Qwen Image 2.1 prompts and workflows shared by 
 
 **[Browse the visual gallery](<https://magiccreator.ai/qwen-image-2-1-prompts>)** · [Try Qwen Image 2.1](<https://magiccreator.ai/model/qwen-image-2-1>) · [Suggest a prompt](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-The README currently includes **18 curated prompts**, with sources reviewed through **2026-09-23**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
+The README currently includes **22 curated prompts**, with sources reviewed through **2026-09-25**. Images and prompts remain attributed to their original creators. Inclusion does not mean MagicCreator independently reproduced every result.
 
 ## Contents
 
 - [Transparent assets](#transparent-assets) (1)
 - [Multi-reference composition](#multi-reference) (3)
-- [Text and layout](#text-and-layout) (7)
-- [Precise edits](#precise-edits) (2)
-- [Creative generation](#creative-generation) (5)
+- [Text and layout](#text-and-layout) (8)
+- [Precise edits](#precise-edits) (3)
+- [Creative generation](#creative-generation) (7)
 - [Suggest a prompt](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -324,6 +324,32 @@ Replace the character biography and costume, but retain the left-portrait/right-
 
 [Original post on X](<https://x.com/junwatu/status/2102006930642468942>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#cinematic-character-turnaround>)
 
+<a id="moonlite-desert-diner"></a>
+
+### Light a Desert Diner Beneath an Impossible Full Moon
+
+[![Qwen Image 2.1 scene of a neon MOONLITE DINER beneath an enormous full moon](<https://pbs.twimg.com/media/HSxuRW_a0AAclhb.jpg>)](<https://x.com/cocktailpeanut/status/2102177280831410461>)
+
+Combine an exact neon sign, a tiny roadside building and an enormous moon in a cinematic nighttime composition.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt** · `en`
+
+```text
+A surreal nighttime photograph of a small roadside diner in the American desert, glowing warmly with neon lights, while an impossibly enormous full moon rises directly behind it and fills half the sky. The parking lot is empty except for one old car. The sign reads "MOONLITE DINER". Rich color contrast, cinematic, nostalgic, uncanny, beautiful.
+```
+
+#### How to adapt it
+
+Swap the business, landscape and sign copy while keeping one impossible scale relationship. Put the exact sign text in quotation marks and limit other readable text if lettering is the priority.
+
+**Shared by:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Original post on X](<https://x.com/cocktailpeanut/status/2102177280831410461>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#moonlite-desert-diner>)
+
 <a id="precise-edits"></a>
 
 ## Precise edits
@@ -381,6 +407,32 @@ Start with the exact short instruction to learn how much detail the model invent
 **Shared by:** [Rebel AI](<https://x.com/realrebelai>)
 
 [Original post on X](<https://x.com/realrebelai/status/2102230694827299060>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#generative-two-times-upscale>)
+
+<a id="background-detail-refinement"></a>
+
+### Refine a Soft Background Without Changing Its Design
+
+[![Side-by-side background refinement comparison made with Qwen Image 2.1](<https://pbs.twimg.com/media/HS5QGeJaQAADPHW.jpg>)](<https://x.com/SlipperyGem/status/2102710078839378330>)
+
+Use a background-agnostic edit instruction to remove blur and improve fine detail while preserving layout, objects, colors, lighting, perspective and style.
+
+**Model:** Qwen-Image 2.1 · **Mode:** edit · **Inputs:** 1 image
+
+#### Prompt
+
+**Original prompt from author reply** · `en`
+
+```text
+Sharpen and refine this background scene. Enhance fine details, textures, surfaces, and edges, remove blur and softness, improve overall clarity and definition. Keep the scene layout, objects, colors, lighting, perspective, and style exactly the same — only increase sharpness and detail. Crisp, clean, high-resolution background plate.
+```
+
+#### How to adapt it
+
+Keep the preservation sentence intact and change only the asset type, such as background plate, product photo or environment concept. Add a short list of details that must remain fixed if the edit starts to redesign the image.
+
+**Shared by:** [Brie Wensleydale🧀🐭](<https://x.com/SlipperyGem>)
+
+[Original post on X](<https://x.com/SlipperyGem/status/2102710078839378330>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#background-detail-refinement>)
 
 <a id="creative-generation"></a>
 
@@ -517,6 +569,70 @@ Keep the subject, light source and hidden threat in distinct parts of the frame.
 **Shared by:** [isaac ✌️](<https://x.com/Amrak101>)
 
 [Original post on X](<https://x.com/Amrak101/status/2101888742256718017>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#haunted-victorian-house-portrait>)
+
+<a id="mid-autumn-family-storyboard"></a>
+
+### Tell a Mid-Autumn Family Story in Nine Panels
+
+[![Nine-panel Mid-Autumn family storyboard generated with Qwen Image 2.1](<https://pbs.twimg.com/media/HTBbTedaUAAl14m.jpg>)](<https://x.com/eternityspring/status/2103281665422585863>)
+
+Plan a complete family outing, cooking sequence and moon-viewing finale as a coherent nine-panel illustrated storyboard.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original Chinese prompt from author reply** · `zh`
+
+```text
+九宫格分镜，9 张连续小故事分镜，吉卜力宫崎骏手绘风格，柔和水彩质感，暖黄秋日自然光，细腻手绘线条，低饱和度温柔配色，治愈氛围感，中秋节，中国一家三口：爸爸、妈妈、年幼小男孩。
+分镜叙事：
+
+1. 第 1 格：傍晚老街，一家三口手拉手逛中秋市集，街边摆满月饼、莲藕、柚子、新鲜蔬菜，灯笼微微发光
+2. 第 2 格：小男孩踮脚伸手想要摸摊位上的柚子，妈妈笑着拉住他
+3. 第 3 格：爸爸提着装满食材的布袋子，袋子露出青菜与月饼，一家人边走边说笑
+4. 第 4 格：回到家中厨房，妈妈清洗莲藕和青菜，木质灶台
+5. 第 5 格：小男孩站在小板凳上，帮忙递葱姜，满脸认真
+6. 第 6 格：爸爸在案板切菜，窗外挂着小小的中秋纸灯笼
+7. 第 7 格：锅里热气升腾，饭菜慢慢做好，暖光铺满厨房
+8. 第 8 格：餐桌摆好，月饼（月饼应该是一个盘子，里边放了很多个）、家常菜上桌，月光从窗户洒进屋子
+9. 第 9 格：一家三口围坐在餐桌前，抬头望向窗外圆圆的满月，温馨治愈
+画面统一风格：宫崎骏动画原画，柔和阴影，胶片颗粒感，干净笔触，无扭曲人体，构图宽松，电影感分镜，边框细线分隔 9 宫格，整体连贯故事，温馨家庭氛围，中秋团圆主题。
+```
+
+#### How to adapt it
+
+Keep nine numbered beats with a clear setup, shared activity and closing image. Replace the festival, family roles, props and visual treatment, then repeat the continuity rules after the panel list.
+
+**Shared by:** [烁皓](<https://x.com/eternityspring>)
+
+[Original post on X](<https://x.com/eternityspring/status/2103281665422585863>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#mid-autumn-family-storyboard>)
+
+<a id="black-and-white-window-portrait"></a>
+
+### Compose a Black-and-White Window Portrait
+
+[![Black-and-white editorial window portrait generated locally with Qwen Image 2.1](<https://pbs.twimg.com/media/HS88FPdbsAAUVkD.jpg>)](<https://x.com/FiniYang/status/2102966180688662752>)
+
+Use a restrained pose, directional window light and silver-grain texture to build a classic editorial portrait with a clean graphic silhouette.
+
+**Model:** Qwen-Image 2.1 · **Mode:** generate · **Inputs:** None
+
+#### Prompt
+
+**Original prompt from author reply** · `en`
+
+```text
+A sophisticated black-and-white film photograph of a beautiful 31-year-old adult East Asian woman beside a tall apartment window at night. She wears an opaque black satin evening dress with a simple low back and small pearl earrings. Her body faces sideways while her face turns toward the lens, giving direct, self-possessed eye contact. One hand rests lightly on the window frame, the other remains at her side. Frame from head to upper thigh, allowing the shoulders, waist and satin folds to form a clean graphic composition. Soft directional window light, deep controlled shadows and delicate silver-grain texture create a classic editorial portrait with realistic skin and a quietly seductive mood.
+```
+
+#### How to adapt it
+
+Replace the subject and wardrobe, then preserve the side-on body, face-to-camera contrast and head-to-thigh crop. Use one directional light source and one film-texture cue rather than stacking many camera terms.
+
+**Shared by:** [Fini.Yang](<https://x.com/FiniYang>)
+
+[Original post on X](<https://x.com/FiniYang/status/2102966180688662752>) · [View in the MagicCreator gallery](<https://magiccreator.ai/qwen-image-2-1-prompts#black-and-white-window-portrait>)
 
 <a id="suggest-a-prompt"></a>
 

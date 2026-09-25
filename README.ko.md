@@ -9,15 +9,15 @@
 
 **[비주얼 갤러리 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts>)** · [Qwen Image 2.1 사용해 보기](<https://magiccreator.ai/ko/model/qwen-image-2-1>) · [프롬프트 제안하기](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-현재 엄선한 **18개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-23**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
+현재 엄선한 **22개의 프롬프트**를 수록했습니다 (출처 최종 확인일: **2026-09-25**). 이미지와 프롬프트의 권리 및 크레딧은 원작자에게 있습니다. 수록되었다고 해서 MagicCreator가 모든 결과를 독립적으로 재현했다는 뜻은 아닙니다.
 
 ## 목차
 
 - [투명 에셋](#transparent-assets) (1)
 - [다중 참조 구성](#multi-reference) (3)
-- [텍스트와 레이아웃](#text-and-layout) (7)
-- [정밀 편집](#precise-edits) (2)
-- [창의적 생성](#creative-generation) (5)
+- [텍스트와 레이아웃](#text-and-layout) (8)
+- [정밀 편집](#precise-edits) (3)
+- [창의적 생성](#creative-generation) (7)
 - [프롬프트 제안하기](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -324,6 +324,32 @@ Produce a 1024 × 1024 square, with the artwork centered and no baked-in rounded
 
 [X 원본 게시물](<https://x.com/junwatu/status/2102006930642468942>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#cinematic-character-turnaround>)
 
+<a id="moonlite-desert-diner"></a>
+
+### 거대한 보름달 아래 사막 식당 밝히기
+
+[![거대한 보름달 아래 MOONLITE DINER 네온사인이 빛나는 Qwen Image 2.1 장면](<https://pbs.twimg.com/media/HSxuRW_a0AAclhb.jpg>)](<https://x.com/cocktailpeanut/status/2102177280831410461>)
+
+정확한 네온 간판, 작은 길가 식당, 거대한 달을 영화 같은 야간 구도에 결합합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**원본 프롬프트** · `en`
+
+```text
+A surreal nighttime photograph of a small roadside diner in the American desert, glowing warmly with neon lights, while an impossibly enormous full moon rises directly behind it and fills half the sky. The parking lot is empty except for one old car. The sign reads "MOONLITE DINER". Rich color contrast, cinematic, nostalgic, uncanny, beautiful.
+```
+
+#### 응용 방법
+
+가게, 풍경, 간판 문구를 바꾸되 비현실적인 크기 관계 하나는 유지하세요. 정확한 간판 문구는 따옴표로 묶고 글자가 우선이라면 그 밖의 읽을 수 있는 텍스트를 제한하세요.
+
+**공유자:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[X 원본 게시물](<https://x.com/cocktailpeanut/status/2102177280831410461>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#moonlite-desert-diner>)
+
 <a id="precise-edits"></a>
 
 ## 정밀 편집
@@ -381,6 +407,32 @@ Upscale the image
 **공유자:** [Rebel AI](<https://x.com/realrebelai>)
 
 [X 원본 게시물](<https://x.com/realrebelai/status/2102230694827299060>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#generative-two-times-upscale>)
+
+<a id="background-detail-refinement"></a>
+
+### 디자인을 바꾸지 않고 흐릿한 배경 정교화하기
+
+[![Qwen Image 2.1로 만든 배경 정교화 전후 비교](<https://pbs.twimg.com/media/HS5QGeJaQAADPHW.jpg>)](<https://x.com/SlipperyGem/status/2102710078839378330>)
+
+레이아웃, 오브젝트, 색상, 조명, 원근감, 스타일은 유지하면서 범용 편집 지시로 흐림을 제거하고 세부 묘사를 개선합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 편집 · **입력:** 1개 이미지
+
+#### 프롬프트
+
+**작성자 답글의 원본 프롬프트** · `en`
+
+```text
+Sharpen and refine this background scene. Enhance fine details, textures, surfaces, and edges, remove blur and softness, improve overall clarity and definition. Keep the scene layout, objects, colors, lighting, perspective, and style exactly the same — only increase sharpness and detail. Crisp, clean, high-resolution background plate.
+```
+
+#### 응용 방법
+
+보존 문장은 그대로 두고 배경 플레이트, 제품 사진, 환경 콘셉트처럼 에셋 종류만 바꾸세요. 편집 과정에서 이미지가 다시 디자인된다면 고정해야 할 디테일을 짧은 목록으로 추가하세요.
+
+**공유자:** [Brie Wensleydale🧀🐭](<https://x.com/SlipperyGem>)
+
+[X 원본 게시물](<https://x.com/SlipperyGem/status/2102710078839378330>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#background-detail-refinement>)
 
 <a id="creative-generation"></a>
 
@@ -517,6 +569,70 @@ A photorealistic cinematic portrait of an attractive woman in her mid-20s standi
 **공유자:** [isaac ✌️](<https://x.com/Amrak101>)
 
 [X 원본 게시물](<https://x.com/Amrak101/status/2101888742256718017>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#haunted-victorian-house-portrait>)
+
+<a id="mid-autumn-family-storyboard"></a>
+
+### 중추절 가족 이야기를 아홉 패널로 표현하기
+
+[![Qwen Image 2.1로 생성한 중추절 가족 이야기 아홉 패널 스토리보드](<https://pbs.twimg.com/media/HTBbTedaUAAl14m.jpg>)](<https://x.com/eternityspring/status/2103281665422585863>)
+
+가족의 시장 나들이, 요리 과정, 달맞이 결말을 이어지는 아홉 패널 일러스트 스토리보드로 구성합니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**작성자 답글의 원본 중국어 프롬프트** · `zh`
+
+```text
+九宫格分镜，9 张连续小故事分镜，吉卜力宫崎骏手绘风格，柔和水彩质感，暖黄秋日自然光，细腻手绘线条，低饱和度温柔配色，治愈氛围感，中秋节，中国一家三口：爸爸、妈妈、年幼小男孩。
+分镜叙事：
+
+1. 第 1 格：傍晚老街，一家三口手拉手逛中秋市集，街边摆满月饼、莲藕、柚子、新鲜蔬菜，灯笼微微发光
+2. 第 2 格：小男孩踮脚伸手想要摸摊位上的柚子，妈妈笑着拉住他
+3. 第 3 格：爸爸提着装满食材的布袋子，袋子露出青菜与月饼，一家人边走边说笑
+4. 第 4 格：回到家中厨房，妈妈清洗莲藕和青菜，木质灶台
+5. 第 5 格：小男孩站在小板凳上，帮忙递葱姜，满脸认真
+6. 第 6 格：爸爸在案板切菜，窗外挂着小小的中秋纸灯笼
+7. 第 7 格：锅里热气升腾，饭菜慢慢做好，暖光铺满厨房
+8. 第 8 格：餐桌摆好，月饼（月饼应该是一个盘子，里边放了很多个）、家常菜上桌，月光从窗户洒进屋子
+9. 第 9 格：一家三口围坐在餐桌前，抬头望向窗外圆圆的满月，温馨治愈
+画面统一风格：宫崎骏动画原画，柔和阴影，胶片颗粒感，干净笔触，无扭曲人体，构图宽松，电影感分镜，边框细线分隔 9 宫格，整体连贯故事，温馨家庭氛围，中秋团圆主题。
+```
+
+#### 응용 방법
+
+도입, 함께하는 활동, 마무리가 분명한 아홉 장면은 유지하고 명절, 가족 역할, 소품, 시각적 표현을 바꾸세요. 패널 목록 뒤에 연속성 규칙을 다시 명시하세요.
+
+**공유자:** [烁皓](<https://x.com/eternityspring>)
+
+[X 원본 게시물](<https://x.com/eternityspring/status/2103281665422585863>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#mid-autumn-family-storyboard>)
+
+<a id="black-and-white-window-portrait"></a>
+
+### 흑백 창가 인물 사진 구성하기
+
+[![Qwen Image 2.1로 로컬 생성한 흑백 창가 에디토리얼 인물 사진](<https://pbs.twimg.com/media/HS88FPdbsAAUVkD.jpg>)](<https://x.com/FiniYang/status/2102966180688662752>)
+
+절제된 자세, 방향성 있는 창빛, 은입자 질감으로 그래픽 실루엣이 선명한 고전적인 에디토리얼 인물 사진을 만듭니다.
+
+**모델:** Qwen-Image 2.1 · **모드:** 생성 · **입력:** 없음
+
+#### 프롬프트
+
+**작성자 답글의 원본 프롬프트** · `en`
+
+```text
+A sophisticated black-and-white film photograph of a beautiful 31-year-old adult East Asian woman beside a tall apartment window at night. She wears an opaque black satin evening dress with a simple low back and small pearl earrings. Her body faces sideways while her face turns toward the lens, giving direct, self-possessed eye contact. One hand rests lightly on the window frame, the other remains at her side. Frame from head to upper thigh, allowing the shoulders, waist and satin folds to form a clean graphic composition. Soft directional window light, deep controlled shadows and delicate silver-grain texture create a classic editorial portrait with realistic skin and a quietly seductive mood.
+```
+
+#### 응용 방법
+
+인물과 의상을 바꾸되 옆을 향한 몸과 카메라를 보는 얼굴의 대비, 머리부터 허벅지 위까지의 프레이밍은 유지하세요. 카메라 용어를 많이 쌓기보다 방향성 광원 하나와 필름 질감 단서 하나를 사용하세요.
+
+**공유자:** [Fini.Yang](<https://x.com/FiniYang>)
+
+[X 원본 게시물](<https://x.com/FiniYang/status/2102966180688662752>) · [MagicCreator 갤러리에서 보기](<https://magiccreator.ai/ko/qwen-image-2-1-prompts#black-and-white-window-portrait>)
 
 <a id="suggest-a-prompt"></a>
 

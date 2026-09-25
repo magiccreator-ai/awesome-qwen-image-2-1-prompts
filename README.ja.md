@@ -9,15 +9,15 @@
 
 **[ビジュアルギャラリーを見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts>)** · [Qwen Image 2.1を試す](<https://magiccreator.ai/ja/model/qwen-image-2-1>) · [プロンプトを推薦する](<https://github.com/magiccreator-ai/awesome-qwen-image-2-1-prompts/issues/new?template=prompt-suggestion.md>)
 
-現在、厳選した**18件のプロンプト**を掲載（出典の最新確認日：**2026-09-23**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
+現在、厳選した**22件のプロンプト**を掲載（出典の最新確認日：**2026-09-25**）。画像とプロンプトの権利・クレジットは元の作者に帰属します。掲載は、MagicCreatorが各結果を独自に再現したことを意味しません。
 
 ## 目次
 
 - [透明素材](#transparent-assets) (1)
 - [複数参照画像](#multi-reference) (3)
-- [文字・レイアウト](#text-and-layout) (7)
-- [精密な編集](#precise-edits) (2)
-- [クリエイティブ生成](#creative-generation) (5)
+- [文字・レイアウト](#text-and-layout) (8)
+- [精密な編集](#precise-edits) (3)
+- [クリエイティブ生成](#creative-generation) (7)
 - [プロンプトを推薦する](#suggest-a-prompt)
 
 <a id="transparent-assets"></a>
@@ -324,6 +324,32 @@ Produce a 1024 × 1024 square, with the artwork centered and no baked-in rounded
 
 [Xの元投稿](<https://x.com/junwatu/status/2102006930642468942>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#cinematic-character-turnaround>)
 
+<a id="moonlite-desert-diner"></a>
+
+### 巨大な満月の下に砂漠のダイナーを灯す
+
+[![巨大な満月の下にMOONLITE DINERのネオンサインが光るQwen Image 2.1のシーン](<https://pbs.twimg.com/media/HSxuRW_a0AAclhb.jpg>)](<https://x.com/cocktailpeanut/status/2102177280831410461>)
+
+正確なネオンサイン、小さな道端の建物、巨大な月を映画的な夜景にまとめます。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**元のプロンプト** · `en`
+
+```text
+A surreal nighttime photograph of a small roadside diner in the American desert, glowing warmly with neon lights, while an impossibly enormous full moon rises directly behind it and fills half the sky. The parking lot is empty except for one old car. The sign reads "MOONLITE DINER". Rich color contrast, cinematic, nostalgic, uncanny, beautiful.
+```
+
+#### 応用方法
+
+店、風景、看板の文言を置き換えつつ、非現実的なスケール関係を1つ残します。正確に表示したい看板の文字は引用符で囲み、文字表現を優先する場合は他の読める文字を制限してください。
+
+**作者:** [cocktail peanut](<https://x.com/cocktailpeanut>)
+
+[Xの元投稿](<https://x.com/cocktailpeanut/status/2102177280831410461>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#moonlite-desert-diner>)
+
 <a id="precise-edits"></a>
 
 ## 精密な編集
@@ -381,6 +407,32 @@ Upscale the image
 **作者:** [Rebel AI](<https://x.com/realrebelai>)
 
 [Xの元投稿](<https://x.com/realrebelai/status/2102230694827299060>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#generative-two-times-upscale>)
+
+<a id="background-detail-refinement"></a>
+
+### デザインを変えずにぼやけた背景を精細化する
+
+[![Qwen Image 2.1で行った背景精細化の比較画像](<https://pbs.twimg.com/media/HS5QGeJaQAADPHW.jpg>)](<https://x.com/SlipperyGem/status/2102710078839378330>)
+
+レイアウト、オブジェクト、色、照明、遠近感、スタイルを保ったまま、汎用的な編集指示でぼけを取り除き、細部を鮮明にします。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 編集 · **入力:** 1枚の画像
+
+#### プロンプト
+
+**作者の返信にある元のプロンプト** · `en`
+
+```text
+Sharpen and refine this background scene. Enhance fine details, textures, surfaces, and edges, remove blur and softness, improve overall clarity and definition. Keep the scene layout, objects, colors, lighting, perspective, and style exactly the same — only increase sharpness and detail. Crisp, clean, high-resolution background plate.
+```
+
+#### 応用方法
+
+保持条件の文は残し、素材の種類だけを背景プレート、商品写真、環境コンセプトなどに置き換えます。画像が再設計されてしまう場合は、固定すべきディテールを短いリストで追加してください。
+
+**作者:** [Brie Wensleydale🧀🐭](<https://x.com/SlipperyGem>)
+
+[Xの元投稿](<https://x.com/SlipperyGem/status/2102710078839378330>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#background-detail-refinement>)
 
 <a id="creative-generation"></a>
 
@@ -517,6 +569,70 @@ A photorealistic cinematic portrait of an attractive woman in her mid-20s standi
 **作者:** [isaac ✌️](<https://x.com/Amrak101>)
 
 [Xの元投稿](<https://x.com/Amrak101/status/2101888742256718017>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#haunted-victorian-house-portrait>)
+
+<a id="mid-autumn-family-storyboard"></a>
+
+### 中秋節の家族物語を9コマで描く
+
+[![Qwen Image 2.1で生成した中秋節の家族物語の9コマ絵コンテ](<https://pbs.twimg.com/media/HTBbTedaUAAl14m.jpg>)](<https://x.com/eternityspring/status/2103281665422585863>)
+
+家族での買い物、料理、月見までを、連続性のある9コマのイラスト絵コンテとして構成します。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**作者の返信にある元の中国語プロンプト** · `zh`
+
+```text
+九宫格分镜，9 张连续小故事分镜，吉卜力宫崎骏手绘风格，柔和水彩质感，暖黄秋日自然光，细腻手绘线条，低饱和度温柔配色，治愈氛围感，中秋节，中国一家三口：爸爸、妈妈、年幼小男孩。
+分镜叙事：
+
+1. 第 1 格：傍晚老街，一家三口手拉手逛中秋市集，街边摆满月饼、莲藕、柚子、新鲜蔬菜，灯笼微微发光
+2. 第 2 格：小男孩踮脚伸手想要摸摊位上的柚子，妈妈笑着拉住他
+3. 第 3 格：爸爸提着装满食材的布袋子，袋子露出青菜与月饼，一家人边走边说笑
+4. 第 4 格：回到家中厨房，妈妈清洗莲藕和青菜，木质灶台
+5. 第 5 格：小男孩站在小板凳上，帮忙递葱姜，满脸认真
+6. 第 6 格：爸爸在案板切菜，窗外挂着小小的中秋纸灯笼
+7. 第 7 格：锅里热气升腾，饭菜慢慢做好，暖光铺满厨房
+8. 第 8 格：餐桌摆好，月饼（月饼应该是一个盘子，里边放了很多个）、家常菜上桌，月光从窗户洒进屋子
+9. 第 9 格：一家三口围坐在餐桌前，抬头望向窗外圆圆的满月，温馨治愈
+画面统一风格：宫崎骏动画原画，柔和阴影，胶片颗粒感，干净笔触，无扭曲人体，构图宽松，电影感分镜，边框细线分隔 9 宫格，整体连贯故事，温馨家庭氛围，中秋团圆主题。
+```
+
+#### 応用方法
+
+導入、共同作業、締めの場面が明確な9つの出来事は残し、祭り、家族構成、小道具、画風を置き換えます。コマの一覧の後で連続性のルールをもう一度指定してください。
+
+**作者:** [烁皓](<https://x.com/eternityspring>)
+
+[Xの元投稿](<https://x.com/eternityspring/status/2103281665422585863>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#mid-autumn-family-storyboard>)
+
+<a id="black-and-white-window-portrait"></a>
+
+### モノクロの窓辺ポートレートを構成する
+
+[![Qwen Image 2.1をローカルで生成したモノクロの窓辺エディトリアルポートレート](<https://pbs.twimg.com/media/HS88FPdbsAAUVkD.jpg>)](<https://x.com/FiniYang/status/2102966180688662752>)
+
+抑えたポーズ、窓からの指向性光、銀粒子の質感で、輪郭の美しいクラシックなエディトリアルポートレートを作ります。
+
+**モデル:** Qwen-Image 2.1 · **モード:** 生成 · **入力:** なし
+
+#### プロンプト
+
+**作者の返信にある元のプロンプト** · `en`
+
+```text
+A sophisticated black-and-white film photograph of a beautiful 31-year-old adult East Asian woman beside a tall apartment window at night. She wears an opaque black satin evening dress with a simple low back and small pearl earrings. Her body faces sideways while her face turns toward the lens, giving direct, self-possessed eye contact. One hand rests lightly on the window frame, the other remains at her side. Frame from head to upper thigh, allowing the shoulders, waist and satin folds to form a clean graphic composition. Soft directional window light, deep controlled shadows and delicate silver-grain texture create a classic editorial portrait with realistic skin and a quietly seductive mood.
+```
+
+#### 応用方法
+
+人物と衣装を置き換え、体を横に向けて顔をカメラへ戻す対比と、頭から太もも上部までのフレーミングは残します。カメラ用語を重ねすぎず、指向性のある光源を1つ、フィルム質感の手掛かりを1つ指定してください。
+
+**作者:** [Fini.Yang](<https://x.com/FiniYang>)
+
+[Xの元投稿](<https://x.com/FiniYang/status/2102966180688662752>) · [MagicCreatorギャラリーで見る](<https://magiccreator.ai/ja/qwen-image-2-1-prompts#black-and-white-window-portrait>)
 
 <a id="suggest-a-prompt"></a>
 
